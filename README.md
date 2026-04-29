@@ -44,10 +44,7 @@ Findings:
 A section (/buscar) returned a blank page
 This behavior suggested the possibility of hidden directories or files
 
-#<img width="942" height="699" alt="image" src="https://github.com/user-attachments/assets/b06469a8-5e6a-45be-9937-dd253ad61940" />
-[proof.pdf](https://github.com/user-attachments/files/27191175/proof.pdf)
-[proof.pdf](https://github.com/user-attachments/files/27191154/proof.pdf)
-[proof.pdf](https://github.com/user-attachments/files/27191150/proof.pdf)
+
 Further probing revealed a sensitive directory:
 
 http://<target-ip>/.backup
@@ -110,6 +107,7 @@ Restrict access to sensitive directories like .backup
 Disable or secure FTP service
 Regularly patch kernel vulnerabilities
 Implement proper access control and monitoring
+[proof.pdf](https://github.com/user-attachments/files/27191175/proof.pdf)
 Notes
 
 This report is based on a controlled CTF/lab scenario and reflects a structured attack methodology rather than automated exploitation.V <target-ip>
