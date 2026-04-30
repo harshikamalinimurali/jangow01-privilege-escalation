@@ -23,7 +23,7 @@ The attacker machine IP was identified using:
 
 ```bash
 ifconfig
-#nmap -sTo identify active hosts within the network, scanning was performed to confirm the target system's availability.
+#nmap -To identify active hosts within the network, scanning was performed to confirm the target system's availability.
 
 Port Scanning
 
