@@ -71,7 +71,7 @@ Exploitation Phase
 
 An exploit was prepared on the attacker machine and transferred to the target system via FTP.
 
-Example Transfer Method:
+##Example Transfer Method:
 put exploit_file
 This step leveraged:
 Open FTP service
